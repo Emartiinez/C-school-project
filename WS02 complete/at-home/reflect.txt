@@ -1,0 +1,29 @@
+/*********************************************************************
+Name: Fabio Bernal
+Student number: 036422103
+Email:febernal@myseneca.ca
+Professor: Peter Liu
+*********************************************************************/
+
+
+1)	Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory?
+
+
+Dynamic is memory in c++ allows you to allocate and deallocate memory at run-time allowing you to increase the size the of an array without having any memory overload problems. You are able to do this by declaring a new pointer in order to allocate memory and the delete it to deallocate memory.
+
+
+2)	The Kingdom structure stores the name of the kingdom in an array of characters. At the end of the program, we do not use the delete operator to de-allocate the memory occupied by the name. Why don’t we need to use the delete operator on this array itself? Explain.
+
+In my opinion, I think that the variable is allocated in static memory by the user and compiler will deallocate the memory on its own after program is executed.
+
+
+3)	There are two display(...) function definitions. How does the compiler know which definition
+to call from your main function? 
+
+The reason the compiler can distinguish the difference between the two display functions is because of the number of parameters you send when calling the function.  It would not know which display is which by the sict namespace because both functions are within the same namespace.
+
+
+4)	Explain what have you have learned in this workshop. 
+
+I have understood what dynamic memory meant in c++ and how you are able to allocate and deallocate memory during run time in order ot prevent memory leaks. I also learned how work with functions under the samespace. 
+
