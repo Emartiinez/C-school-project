@@ -1,0 +1,14 @@
+Name: Fabio Bernal
+ID: 036422103
+Professor: Nour Hossain
+Email: febernal@myseneca.ca
+
+1)Why does the copy assignment operator check for self-assignment before doing anything else? 
+
+In my opinion the reason why, the copy assignment operator checks for self-assignment before doing anything else to make sure that the object being copied is valid. 
+
+2) List how you avoided duplication of code. 
+Throughout this workshop there was plenty of duplication in this code and a few ways to minimize duplication was by creating extra member functions and helper functions as well. 
+
+3) List what you have learned in completing this workshop. 
+In this workshop I have learned how to define a copy constructor and understanding the functionality behind it.  We learned how to use member operators in this workshop and how to copy objects using the operators.   
