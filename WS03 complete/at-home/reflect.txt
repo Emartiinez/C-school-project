@@ -1,0 +1,25 @@
+Name: Fabio Bernal
+ID: 036422103
+Email: febernal@myseneca.ca
+Professor: Peter Liu
+
+
+
+1)How many elements are there in each C-style character string that stores a family or given name for the account? Why? 
+
+	In the char string for family and given name contains 40 elements that comes from the const int max_name_length, but does not include the null byte.  
+	The reason is because it is always better to save extra memory in the program when it comes to enter user names.
+
+
+2)Your class declares two member functions named set(...). In C, this would generate an error. Name the feature of C++ that allows this. 
+
+
+	The feature of C++ that allows you to have 2 different class members named set is functions signature, 
+	which identifies the overload function and distinguishes the different types by its parameters. 
+
+3)What have you learned during this workshop? 
+
+	In my opinion, the set function was one of the trickiest code I had to figure out both 1st semester and 2nd semester so far. 
+	I have learned how to overload a function and how to use it.  Define different class types and learned to privatize data. 
+	This workshop made it comfortable for me to understand class and member functions.
+
