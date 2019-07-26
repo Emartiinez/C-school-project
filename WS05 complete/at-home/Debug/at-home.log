@@ -1,0 +1,5 @@
+﻿  w5_at_home.cpp
+w5_at_home.obj : error LNK2019: unresolved external symbol "public: bool __thiscall sict::Fraction::operator==(class sict::Fraction const &)const " (??8Fraction@sict@@QBE_NABV01@@Z) referenced in function _main
+w5_at_home.obj : error LNK2019: unresolved external symbol "public: bool __thiscall sict::Fraction::operator!=(class sict::Fraction const &)const " (??9Fraction@sict@@QBE_NABV01@@Z) referenced in function _main
+w5_at_home.obj : error LNK2019: unresolved external symbol "public: class sict::Fraction & __thiscall sict::Fraction::operator+=(class sict::Fraction const &)" (??YFraction@sict@@QAEAAV01@ABV01@@Z) referenced in function _main
+C:\Users\Fabiio Bernal\Desktop\oop workshop\BTP-Workshops-master\WS05\at-home\Debug\at-home.exe : fatal error LNK1120: 3 unresolved externals
