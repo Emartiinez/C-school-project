@@ -1,0 +1,18 @@
+Name: Fabio Bernal
+ID: 036422103
+
+`
+1.	What is the difference between an abstract base class and a concrete class? 
+
+In my opinion the difference between abstract base class and concrete class is that abstract classes are classes that defines an interface of a program, 
+while a concrete class is known to be a derived from that interface class.
+
+2.	Identify the functions that shadow functions of the same name in your solution? 
+
+A few functions that shadow functions of the same name are all the virtual functions declared in the interface file which is the iAccount.h. 
+The following functions that were shadow were the credit, debit, monthend and display function.
+
+3. Explain what you have learned in this workshop. 
+	
+What I learned from completing this workshop is how to properly define abstract classes that have pure virtual functions.
+I heave learned the difference between an abstract and a concrete class.
