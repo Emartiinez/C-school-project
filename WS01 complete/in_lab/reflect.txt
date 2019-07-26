@@ -1,0 +1,27 @@
+Name: Fabio Bernal
+ID: 036422103
+Email: febernal@myseneca.ca
+Professor: Peter liu
+
+1.	What is a namespace? Explain its purpose. 
+
+In my opinion namespace is used to declare specific functions, types or even variables, namespace defines a scope. It’s purpose its organize code to its proper code block logic, using the same name but with causing any conflict in the program.
+
+
+2.	Why are header files needed? Explain. 
+
+The purpose of header files is to create your own library functions of prototypes. It is easier to create a separate file and to include it to the main file, rather than having everything in one main file.
+
+
+3.	In the instructions above, you were directed to compile only .cpp files but not the .h files. Explain why you should never compile header files. 
+
+In my opinion the reason you do not compile header files is because it is already implemented in the .cpp files. 
+
+
+4.	Explain why you should never include .cpp files in another file. 
+
+In my opinion, the reason you do not include .cpp files in another file is because it is the body of the .h file and is already being included in the .h files. 
+	
+5.	Explain in your own words what have you learned on this workshop. 
+
+What I have learned in workshop 1 is learning what namespace is and how to properly use it and declare it and how it is useful to use in your source code. I also learned how to the safeguard way if you already have #include .h in different files using #ifndef and #endif.
