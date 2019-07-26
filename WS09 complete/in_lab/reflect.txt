@@ -1,0 +1,15 @@
+Name: Fabio Bernal
+ID: 036422103
+
+1.	What happens if you try to put your templated functions in Data.cpp? Does your source code compile if you move all functions to Data.h? Explain. 
+In my opinion if the templates are in Date.cpp the program will not compile because the compiler must be able to read both the template and the definition of it. 
+
+2.	Move one templated function into ws9_lab.cpp. Does it work now? Do you need to define the template function above main(), before it is used, or can you define it below main()? 
+When attempting to move templates to  ws9_lab.cpp either defining above or below the function was not able to be read.
+
+3.	Could you have done this lab without templates, by just overloading your functions in Data.h to accept integer and double arguments? What is the advantage of using templates? 
+In my opinion you it is possible to overload function in Data.h but by doing so this causes repetition and also not abiding polymorphism. Templates help the code be more verbose and easier to follow.
+     
+       4. Are the following equivalent? template<class T> 
+template<typename T>
+I think that both of the following declarations are equivalent because you can either implement the definitions either by class or by function.
