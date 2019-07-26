@@ -1,0 +1,33 @@
+Name: Fabio Bernal	
+ID:036422103
+Email:febernal@myseneca.ca
+Professor: Peter Liu
+
+
+1)What is a safe empty state? Could you define another state as the safe empty state? 
+
+An empty state means that an object should be ready to use once the constructed. 
+Another way to define a state as the safe empty state is to initialize to null.
+
+
+
+
+2)Describe how you have minimized code duplication. 
+
+In my opinion, the way you used to minimize repetition of code is to create functions which will substitute any duplication.
+
+
+3)Explain why the canTravelWith(...) member function can access the pri-vate data of the object referenced in its parameter.
+
+In my opinion, it is part of the same class so it can directly access all private data members of the same class. 
+
+
+4)What statement do you need to add to ensure that the strncpy(...) func-tion executes correctly? 
+
+Strncpy you need 3 arguments using this function. To make this work you must ensure the length of the string. Strncpy(desitination, source , stringLength)/
+
+
+5)Explain what you have learned in this workshop. 
+
+I have learned to properly declare constructors which are used to set data in objects.  
+I learned how the program can distinguish which constructor is being used by the number of parameters it contains.
